@@ -13,7 +13,8 @@ var eventEmitter = gpsServer(); //  start GPS server
 
 //  handle data processed and returned by gps-server
 eventEmitter.on('gps_data', function(data) {
-    //console.log('this happens synchronously');
+    console.log('4818 GPS:');
+    console.log(data);
     //  preferably, handle data asynchronously, to not affect on gps-server
     setImmediate(function(data) {
         //console.log('EVENT async "gps_data" : ');

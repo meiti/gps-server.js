@@ -1,5 +1,20 @@
 ﻿var log = require('../../log')(module);
 
+var ACC = 1;
+var DOOR = 2;
+var Analog = 4;
+var GSM = 5;
+var SPEED = 6;
+var VOLTAGE = 7;
+var GPSPOWER = 8;
+var TEMPERATURE = 9;
+var ODOMETER = 16;
+var STOP = 20;
+var TRIP = 28;
+var IMMOBILIZER = 29;
+var AUTHORIZED = 30;
+var GREEDRIVING = 31;
+var OVERSPEED = 33;
 
 // --- BiTrek GPS ------------------------------------------------------------
 var parser = {};
